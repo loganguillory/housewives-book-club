@@ -10,7 +10,7 @@ class BooksController < ApplicationController
 
   # GET /books/1
   def show
-    book = Book.find(params[id])
+    @book = Book.find(params[:id])
     render json: @book
   end
 
