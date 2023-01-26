@@ -15,14 +15,10 @@ function App() {
   });
   }, []);
 
-  return(
-<div className='list'>
-  <BookList list={list}/>
-  </div>
+return(
+      <div className='app'>
+        <BookList key={list.id} list={list}/>
+      </div>
   )
-  
-
-  
-
 }
 export default App;
