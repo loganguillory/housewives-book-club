@@ -6,9 +6,9 @@ function BookList({ list }){
 
     const bookDisplay = list.map((book) =>{
         return <div className="book-card" key={book.id} >
-                <div className="book-images">
-                    <img className="images" src={book.image} alt="book-images"></img>
-                </div>
+                    <div className="book-images">
+                        <img className="images" src={book.image} alt="book images"></img>
+                    </div>
                 <div className="book-info">
                         <p>
                         Title: {book.title}
@@ -26,7 +26,6 @@ function BookList({ list }){
                             Price: ${book.price}
                         </p>
                     </div>
-
                 </div>
 
         //     <div key={book.id} className= "display">
