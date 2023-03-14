@@ -1,11 +1,13 @@
 .App {
   text-align: center;
+
+}
+
+.book-display{
+  display: grid;
+  align-content:center;
   
 }
-/* .book-display{
-  display: flex;
-  flex-direction: row;
-} */
 
 .book-card{
   border-color:red;
@@ -13,7 +15,7 @@
   width: 350px;
   height: 700px;
   }
-  
+
 .book-images{
   width: 310px;
   height: 310px;

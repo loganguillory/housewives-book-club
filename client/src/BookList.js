@@ -26,6 +26,7 @@ function BookList({ list }){
                             Price: ${book.price}
                         </p>
                     </div>
+                    <button>Check it out</button>
                 </div>
 
         //     <div key={book.id} className= "display">
