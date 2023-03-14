@@ -17,7 +17,9 @@ function App() {
 
 return(
       <div className='app'>
+        <div class="book-display">
         <BookList key={list.id} list={list}/>
+        </div>
       </div>
   )
 }
