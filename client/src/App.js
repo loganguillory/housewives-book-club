@@ -1,5 +1,6 @@
 import './App.css';
 import BookList from './BookList';
+import NavBar from './NavBar';
 import React from 'react'
 import {useState, useEffect} from 'react';
 
@@ -20,6 +21,9 @@ return(
         <div class="book-display">
         <BookList key={list.id} list={list}/>
         </div>
+        <nav>
+          <NavBar />
+        </nav>
       </div>
   
   )

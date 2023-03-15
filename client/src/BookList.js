@@ -5,7 +5,9 @@ import React from 'react';
 function BookList({ list }){
 
     const bookDisplay = list.map((book) =>{
-        return <div className="book-card" key={book.id} >
+        return (
+            <div id="test">
+        <div className="book-card" key={book.id} >
                     <div className="book-images">
                         <img className="images" src={book.image} alt="book images"></img>
                     </div>
@@ -25,9 +27,13 @@ function BookList({ list }){
                         <p>
                             Price: ${book.price}
                         </p>
+                        
                     </div>
+                    
                     <button>Check it out</button>
                 </div>
+                </div>
+        )
 
         //     <div key={book.id} className= "display">
         //     <div id="book-images">

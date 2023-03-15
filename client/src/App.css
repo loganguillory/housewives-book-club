@@ -3,6 +3,11 @@
 
 }
 
+#test{
+  display:flex;
+  flex-direction: row;
+}
+
 .book-display{
   display: grid;
   align-content:center;
