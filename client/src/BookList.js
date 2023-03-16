@@ -6,7 +6,7 @@ function BookList({ list }){
 
     const bookDisplay = list.map((book) =>{
         return (
-            <div id="test">
+        
         <div className="book-card" key={book.id} >
                     <div className="book-images">
                         <img className="images" src={book.image} alt="book images"></img>
@@ -32,7 +32,7 @@ function BookList({ list }){
                     
                     <button>Check it out</button>
                 </div>
-                </div>
+            
         )
 
         //     <div key={book.id} className= "display">
@@ -45,7 +45,7 @@ function BookList({ list }){
     });
 
     return(
-        <div>
+        <div id ="test">
             {bookDisplay} 
         </div>
     )
